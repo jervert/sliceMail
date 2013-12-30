@@ -1,0 +1,54 @@
+body {font-family:verdana,dejavu sans,arial,lucida sans,helvetica,sans-serif; font-size: 125%;}
+#contenedor {font-size:.5em;}
+
+* {list-style:none; margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, p, li {font-size:1em;}
+
+.clear:after, div:after, form p:after {content: ""; display: block; clear: both; height: 0; visibility: hidden;}
+.clear, div, form p {min-height: 0;}
+
+.oculto {display:block; overflow:hidden; position:absolute; width:0;}
+
+img, fieldset, table, th, td {border:0; border-spacing:0;}
+
+a {color:#00E;}
+html body div#contenedor a:hover, html body div#contenedor .botonera input:hover {color:#cc3d00;}
+
+
+body {background-color:#eee;}
+input, textarea {border:1px solid #bdbdbd; font-size:1em; font-family:verdana,dejavu sans,arial,lucida sans,helvetica,sans-serif; padding:.1666em .08333em;}
+.obligatorio {background-color:#F9FFEA;}
+.campoActivo {border:1px solid #7C90FF;}
+#contenedor {background-color:#fff; margin:1em auto; padding:2em 1em; width:60em}
+
+#contenedor h1 {font-size:1.6em; margin-bottom:1.25em; padding:0 .625em;}
+
+#contenedor div.mensaje {background-color:#F6FFC9; border:1px solid #B1B791; margin-bottom:1.6em; padding:.9em;}
+#contenedor div.mensaje_error {background-color:#FFE0E6; border-color:#FF8CA3;}
+#contenedor div.mensaje p {margin:0; padding:0;}
+
+#contenedor p,
+#contenedor legend {clear:left; font-size:1.2em; margin-bottom:.8333em; padding:0 .8333em;}
+#contenedor legend {font-weight:bold;}
+	.opera #contenedor legend {padding-bottom:.8333em;}
+
+#contenedor form fieldset {border-bottom:1px solid #ccc; margin-bottom:2em; padding-bottom:1.5em;}
+#contenedor p label {float:left;}
+#contenedor p label span {float:left; padding:.1666em .3333em 0 0; text-align:right; width:9.3333em;}
+#contenedor p label input {float:left;}
+#contenedor p em.ayuda {clear:both; display:block; float:none; font-size:.8333em; padding:.2em 0 0 11.6em;}
+#contenedor p.campoCheck {padding-left:10.5em;}
+#contenedor p.campoCheck label span {float:none; margin-left:.3333em; text-align:left; width:auto;}
+
+#contenedor p.botonera {margin-bottom:0; padding-left:10.5em;}
+#contenedor p.botonera input {background-color:#eee; border:1px solid #bdbdbd; cursor:pointer; padding:.08333em .3333em;}
+
+#contenedor a.ico_ayuda {float:left; margin-left:.3333em;}
+#contenedor form div.grupo_ayuda {clear:left; float:left; position:relative;}
+#contenedor form div.grupo_ayuda p label input {float:none;}
+#contenedor form div.caja_ayuda_01 {background:url(IMG_ayuda_01.gif) no-repeat 0 0; padding-top:1.3em; position:absolute; right:-15.4em; top:1.7em; width:18.8em; z-index:3;}
+#contenedor form div.caja_ayuda_02 {background-color:#eee; border:1px solid #c1c2bd; border-top:0; padding:0 1.9em .7em .7em; position:relative;}
+#contenedor form div.caja_ayuda_02 p, #contenedor form div.caja_ayuda_02 li {font-size:1.1em; margin-bottom:0; padding:0;}
+#contenedor form div.caja_ayuda_02 p.titulo {margin-bottom:.1818em;}
+#contenedor form div.caja_ayuda_02 p.cerrar {font-size:1em; right:.2em; position:absolute; top:-.2em;}
+#contenedor form div.caja_ayuda_02 li {margin-bottom:.1818em;}
